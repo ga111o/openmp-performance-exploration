@@ -1,1 +1,11 @@
 .env
+env/
+__pycache__/
+*.pyc
+
+main
+prime
+*.o
+
+results/*.csv
+results/*.csv.bak

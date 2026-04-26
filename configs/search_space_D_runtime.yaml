@@ -1,0 +1,40 @@
+parameters:
+  - name: hyperparameters/work_sharing
+    type: discrete
+    values: [parallel_for]
+
+  - name: hyperparameters/schedule_kind
+    type: discrete
+    values: [static]
+
+  - name: hyperparameters/schedule_chunk
+    type: discrete
+    values: [0]
+
+  - name: hyperparameters/task_chunk_size
+    type: discrete
+    values: [0]
+
+  - name: hyperparameters/num_threads
+    type: discrete
+    values: [12]
+
+  - name: hyperparameters/proc_bind
+    type: discrete
+    values: ["close"]
+
+  - name: hyperparameters/places
+    type: discrete
+    values: [cores]
+
+  - name: hyperparameters/wait_policy
+    type: discrete
+    values: [active, passive]
+
+  - name: hyperparameters/dynamic
+    type: discrete
+    values: ["true", "false"]
+
+  - name: hyperparameters/iterations
+    type: discrete
+    values: [100000, 1000000, 10000000, 100000000, 1000000000]
