@@ -1,0 +1,52 @@
+parameters:
+  - name: hyperparameters/work_sharing
+    type: discrete
+    values: [cache_walk_private]
+
+  - name: hyperparameters/schedule_kind
+    type: discrete
+    values: [static]
+
+  - name: hyperparameters/schedule_chunk
+    type: discrete
+    values: [0]
+
+  - name: hyperparameters/task_chunk_size
+    type: discrete
+    values: [0]
+
+  - name: hyperparameters/num_threads
+    type: discrete
+    values: [12, 24]
+
+  - name: hyperparameters/proc_bind
+    type: discrete
+    values: ["false", "close", "spread"]
+
+  - name: hyperparameters/places
+    type: discrete
+    values: [threads, cores]
+
+  - name: hyperparameters/wait_policy
+    type: discrete
+    values: [active]
+
+  - name: hyperparameters/dynamic
+    type: discrete
+    values: ["false"]
+
+  - name: hyperparameters/iterations
+    type: discrete
+    values:
+      - 512
+      - 1024
+      - 2048
+      - 4096
+      - 8192
+      - 16384
+      - 32768
+      - 65536
+
+  - name: hyperparameters/cpu_set
+    type: discrete
+    values: [auto]

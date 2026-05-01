@@ -1,0 +1,13 @@
+combo_id,work_sharing,schedule_kind,schedule_chunk,task_chunk_size,num_threads,proc_bind,places,wait_policy,dynamic,iterations,cpu_set,num_threads_actual,pool_create,fork_join_min,serial_min,parallel_min,pure_parallel,speedup_total,speedup_pure,acc,wall_time_sec,status,stderr
+0,cache_walk,NA,NA,NA,6,close,cores,active,false,524288,0-5,6,623561,3848,146408260,26653690,26649842,5.492983,5.493776,43482,0.1478,ok,
+1,cache_walk,NA,NA,NA,6,close,cores,active,false,524288,"0-2,6-8",6,561919,4662,152818917,25808647,25803985,5.921229,5.922299,43482,0.1524,ok,
+2,cache_walk,NA,NA,NA,6,close,cores,active,false,1048576,0-5,6,511784,3922,147281090,26815084,26811162,5.492472,5.493275,824355,0.1504,ok,
+3,cache_walk,NA,NA,NA,6,close,cores,active,false,1048576,"0-2,6-8",6,515336,4588,154851697,26013072,26008484,5.952842,5.953892,824355,0.1567,ok,
+4,cache_walk,NA,NA,NA,6,close,cores,active,false,2097152,0-5,6,1170717,3922,295932475,49822017,49818095,5.939793,5.940261,1172777,0.2975,ok,
+5,cache_walk,NA,NA,NA,6,close,cores,active,false,2097152,"0-2,6-8",6,532578,4366,311902193,52422599,52418233,5.949766,5.950261,1172777,0.3133,ok,
+6,cache_walk,NA,NA,NA,6,close,cores,active,false,4194304,0-5,6,692529,4218,762045340,126496488,126492270,6.024241,6.024442,3386470,0.7682,ok,
+7,cache_walk,NA,NA,NA,6,close,cores,active,false,4194304,"0-2,6-8",6,656417,5069,835127222,134008598,134003529,6.231893,6.232129,3386470,0.8618,ok,
+8,cache_walk,NA,NA,NA,6,close,cores,active,false,8388608,0-5,6,575054,4033,6797611288,1167911549,1167907516,5.820313,5.820334,440523,6.5874,ok,
+9,cache_walk,NA,NA,NA,6,close,cores,active,false,8388608,"0-2,6-8",6,678876,4662,6993873163,1172400648,1172395986,5.965429,5.965453,440523,6.7779,ok,
+10,cache_walk,NA,NA,NA,6,close,cores,active,false,16777216,0-5,6,525067,2812,18582021674,3257214229,3257211417,5.704882,5.704887,4634404,18.0188,ok,
+11,cache_walk,NA,NA,NA,6,close,cores,active,false,16777216,"0-2,6-8",6,639693,4551,18720530915,3301162681,3301158130,5.670890,5.670898,4634404,18.2219,ok,

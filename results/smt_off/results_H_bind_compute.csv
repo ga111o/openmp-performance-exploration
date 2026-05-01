@@ -1,0 +1,11 @@
+combo_id,work_sharing,schedule_kind,schedule_chunk,task_chunk_size,num_threads,proc_bind,places,wait_policy,dynamic,iterations,cpu_set,num_threads_actual,pool_create,fork_join_min,serial_min,parallel_min,pure_parallel,speedup_total,speedup_pure,acc,wall_time_sec,status,stderr
+0,parallel_for,static,0,NA,2,close,cores,active,false,10000000,0-11,2,198579,3589,9236172730,5770272211,5770268622,1.600648,1.600649,1329158,12.1731,ok,
+1,parallel_for,static,0,NA,2,spread,cores,active,false,10000000,0-11,2,257927,4292,9516089866,5975607522,5975603230,1.592489,1.592490,1329158,12.5697,ok,
+2,parallel_for,static,0,NA,3,close,cores,active,false,10000000,0-11,3,404669,4736,9238541026,4034995447,4034990711,2.289604,2.289607,1329158,10.7721,ok,
+3,parallel_for,static,0,NA,3,spread,cores,active,false,10000000,0-11,3,358234,4329,9654909722,4237686812,4237682483,2.278344,2.278347,1329158,11.2692,ok,
+4,parallel_for,static,0,NA,4,close,cores,active,false,10000000,0-11,4,406482,2812,9245266294,3098235663,3098232851,2.984042,2.984045,1329158,10.0155,ok,
+5,parallel_for,static,0,NA,4,spread,cores,active,false,10000000,0-11,4,417249,4366,9684347551,3251195180,3251190814,2.978704,2.978708,1329158,10.4918,ok,
+6,parallel_for,static,0,NA,5,close,cores,active,false,10000000,0-11,5,476893,3737,9253546080,2511840904,2511837167,3.683970,3.683975,1329158,9.5499,ok,
+7,parallel_for,static,0,NA,5,spread,cores,active,false,10000000,0-11,5,526325,5254,9821948109,2668692118,2668686864,3.680435,3.680442,1329158,10.1305,ok,
+8,parallel_for,static,0,NA,6,close,cores,active,false,10000000,0-11,6,591519,3885,9282257451,2119357558,2119353673,4.379751,4.379759,1329158,9.2513,ok,
+9,parallel_for,static,0,NA,6,spread,cores,active,false,10000000,0-11,6,586413,5291,9841361084,2245820339,2245815048,4.382079,4.382089,1329158,9.8042,ok,

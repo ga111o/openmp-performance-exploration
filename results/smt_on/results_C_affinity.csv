@@ -1,0 +1,6 @@
+combo_id,work_sharing,schedule_kind,schedule_chunk,task_chunk_size,num_threads,proc_bind,places,wait_policy,dynamic,iterations,cpu_set,num_threads_actual,pool_create,fork_join_min,serial_min,parallel_min,pure_parallel,speedup_total,speedup_pure,acc,wall_time_sec,status,stderr
+0,parallel_for,static,0,NA,12,false,NA,active,false,10000000,NA,12,811928,5402,9994357268,1160847065,1160841663,8.609538,8.609578,1329158,9.0472,ok,
+1,parallel_for,static,0,NA,12,close,threads,active,false,10000000,NA,12,1112257,4329,9368994701,2125410758,2125406429,4.408087,4.408096,1329158,9.3370,ok,
+2,parallel_for,static,0,NA,12,close,cores,active,false,10000000,NA,12,1561363,5809,9990635401,1162404321,1162398512,8.594802,8.594845,1329158,9.0485,ok,
+3,parallel_for,static,0,NA,12,spread,threads,active,false,10000000,NA,12,1080881,6512,9997233907,1161921027,1161914515,8.604056,8.604104,1329158,9.0527,ok,
+4,parallel_for,static,0,NA,12,spread,cores,active,false,10000000,NA,12,1640617,6216,9989116255,1160642307,1160636091,8.606542,8.606588,1329158,9.0436,ok,

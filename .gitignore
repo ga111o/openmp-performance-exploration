@@ -9,3 +9,10 @@ prime
 
 results/*.csv
 results/*.csv.bak
+
+
+*.aux
+*.fls
+*.log
+*.out
+*.synctex.gz

@@ -37,4 +37,8 @@ parameters:
 
   - name: hyperparameters/iterations
     type: discrete
-    values: [100000000]
+    values: [10000000]
+
+  - name: hyperparameters/cpu_set
+    type: discrete
+    values: [NA]
